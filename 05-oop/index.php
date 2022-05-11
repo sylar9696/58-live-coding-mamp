@@ -1,4 +1,4 @@
-pppp<?php
+<?php
 class User {
   //2 proprietà della classe
   public $name;
@@ -15,7 +15,7 @@ $giorgio -> name = "Giorgio";
 echo $giorgio->name;
 
 
-//------------------------------ oop con construttore ---------------------------------------//
+//------------------------------ oop con costruttore ---------------------------------------//
 
 class User2 {
   //4 proprietà della classe
@@ -35,6 +35,7 @@ class User2 {
 
   //funzione sconto
   public function setSconto( $eta ){
+    //validare
     if($eta > 30) {
       $this->sconto = 40;
     }
