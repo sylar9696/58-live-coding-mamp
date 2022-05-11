@@ -65,7 +65,7 @@ echo "<p>" . $anelli -> getAuthor() . "</p>";
 echo "<p>" . $anelli -> getPrice() . "</p>";
 
 //settiamo sconto
-$anelli -> setSconto(30);
+//$anelli -> setSconto(30);
 
 echo "<p> lo sconto è: " . $anelli -> sconto . "</p>"; //60
 
